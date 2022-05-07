@@ -7,9 +7,23 @@
     <body>
         <h1>Welcome To My website</h1>
         <script src="script.js"></script>
-        <p> My name is Axel Irias, I am 23yrs and have lived in Colorado my whole kife but my ethnicity is hispanic my parents and whole family are from a place in central america called Hounduras</p>
+        <p> My name is Axel Irias, I am 23yrs and have lived in Colorado my whole life but my ethnicity is hispanic my parents and whole family are from a place in central america called Hounduras</p>
         <img 
         src="https://i.infopls.com/images/mhondura.gif"
         alt="This is a map of Hounduras"
+        
+        <button id="myBtn">Try it</button>
+
+<p id="demo">
+
+<script>
+const element = document.getElementById("myBtn");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello This is Me";
+}
+</script>
+
     </body>
 </html>
