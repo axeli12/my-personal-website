@@ -15,4 +15,10 @@ titlw{
 IMG.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto 
+}
+
+#_table {
+    margin-left: auto;
+    margin-right: auto 
+}
