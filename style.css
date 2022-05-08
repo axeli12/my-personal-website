@@ -7,3 +7,11 @@ p {
 h1 {
     font-size: larger;
 }
+
+titlw{
+    text-align: center;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
